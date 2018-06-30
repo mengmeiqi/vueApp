@@ -1,11 +1,11 @@
 <template>
     <div>
-        <common-header bgColor="rgb(33,150,243)">
+        <common-header bgColor="rgb(0,150,136)">
             <span slot="title">
-                Movie
+                Music
             </span>
         </common-header>
-        <common-footer bgColor="rgb(33,150,243)"></common-footer>
+        <common-footer bgColor="rgb(0,150,136)"></common-footer>
     </div>
 </template>
 

@@ -1,12 +1,14 @@
 <template>
+
     <div>
-        <common-header bgColor="rgb(33,150,243)">
+        <common-header bgColor="rgb(121,85,72)">
             <span slot="title">
-                Movie
+                Book
             </span>
         </common-header>
-        <common-footer bgColor="rgb(33,150,243)"></common-footer>
+        <common-footer bgColor="rgb(121,85,72)"></common-footer>
     </div>
+    
 </template>
 
 <script>

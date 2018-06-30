@@ -1,22 +1,24 @@
 <template>
     <div>
-        <div class="header">
+        <div class="header" :style="{background:bgColor}">
             <span class="home">首页</span>
-            <h2 class="title">Movie</h2>
+            <h2 class="title">
+                <slot name="title">默认值</slot>
+            </h2>
         </div>
     </div>
 </template>
 
 <script>
-    
+    export default{
+        props: ['bgColor']
+    }   
 </script>
 
 <style scoped>
 .header{
     height:1rem;
-    background: rgb(33,150,243);
     line-height:1rem;
-    color:#fff;
     position:fixed;
     width:100%;
 } 
